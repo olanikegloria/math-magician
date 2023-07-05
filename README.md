@@ -144,7 +144,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 👥 Author <a name="author"></a>
 
-👤 Ichsan Sandy
+👤 olatunji olanike
 
 - GitHub: [@olanikegloria](https://github.com/olanikegloria)
 - LinkedIn: [Olanike Olatunji](https://www.linkedin.com/in/olanike-olatunji-81a6921b1)
