@@ -12,12 +12,12 @@ function Quotes() {
       try {
         const res = await fetch('https://api.api-ninjas.com/v1/quotes?category=happiness',
           {
+            method: 'GET',
             headers: {
               'X-Api-Key': 'Y4AovPhNanOmDoemBuILsg==Vh1LebLXqqcrnzL3',
             },
           });
         const data = await res.json();
-        console.log(data);
         setquote(data);
       } catch (error) {
         setHasError(true);
