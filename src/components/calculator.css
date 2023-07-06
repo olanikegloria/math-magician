@@ -1,0 +1,32 @@
+.gray {
+  background-color: #c0c0c0;
+}
+
+.orange {
+  background-color: #f28500;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  1fr;
+  width: 320px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.input-container {
+  grid-column: span 4;
+  text-align: end;
+  background-color: gray;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 1.5rem;
+  outline: none;
+  border: 0.1px solid #dbd7d2;
+  font-size: 1rem;
+}
