@@ -27,7 +27,7 @@ function Quotes() {
     fetchData();
   }, [setquote, setLoading]);
   if (hasError) return <div className="container-error"> something went wrong</div>;
-  if (loading) return <div className="container-loading"> loading...</div>;
+  if (loading) return <div className="container-loading"> Loading...</div>;
 
   return (
     <div className="quotes-container">

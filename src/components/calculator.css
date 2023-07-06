@@ -45,3 +45,8 @@ button {
 .quote {
   font-size: 1.2rem;
 }
+
+.container-loading {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
