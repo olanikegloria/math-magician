@@ -37,16 +37,32 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 310px;
   padding: 1rem;
-  margin-top: 4rem;
+  margin: 4rem 0 4rem 4rem;
 }
 
 .quote {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .container-loading {
-  padding: 2rem;
-  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 4rem 0 4rem 4rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.calculator {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 16rem;
+}
+
+.calculator h2 {
+  font-size: 2rem;
 }
